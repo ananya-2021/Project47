@@ -323,13 +323,6 @@ function draw(){
     playAgain.visible = true;
   }
 
-  if(keyDown("a")){
-   gameState = 4;
-  }
-  if(keyDown("b")){
-    gameState = 3;
-   }
-
   drawSprites();
 
 }
